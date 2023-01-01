@@ -1,0 +1,34 @@
+.container {
+  width: 1200px;
+  margin: 50px auto;
+}
+.title {
+  text-align: center;
+  padding-top: 100px;
+  h3 {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  p {
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+/* chair */
+.chairWap {
+  background-color: white;
+}
+.chair,
+.chair_K {
+  text-align: center;
+}
+.chair span button {
+  @apply w-6 h-6 bg-white mx-1;
+}
+.chair_K span button {
+  @apply w-12 h-6 bg-pink-300 mx-1;
+}
+/* end chair */

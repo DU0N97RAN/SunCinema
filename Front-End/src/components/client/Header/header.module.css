@@ -1,0 +1,60 @@
+.headerWap{
+    @apply  h-[70px] top-0 left-0 right-0 z-[10000] bg-[#151f32]
+}
+.header{
+    @apply flex justify-between mx-auto w-[1200px] 
+}
+.header .logo img{
+    width: 100px;
+    margin-top: 5px;
+}
+.header .header_navbar nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.header .header_navbar nav ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.header .header_navbar nav ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: gray;
+    /* border: 1px solid gray; */
+}
+.header .header_navbar nav ul li:after{
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #044cb7;
+    border-radius: 10px;
+    width: 0;
+    transition: all ease 0.4s;
+    margin: 10px auto;
+}
+.header .header_navbar nav ul li a:hover{
+    color: white;
+}.header .header_navbar nav ul li:hover:after{
+    width: 100%;
+}
+.header_right{
+    display: flex;
+    margin-top: 20px;
+}
+.header_right_btn{
+    padding: 0px 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.header_right_btn a{
+    color: white;
+}
+.login a{
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+

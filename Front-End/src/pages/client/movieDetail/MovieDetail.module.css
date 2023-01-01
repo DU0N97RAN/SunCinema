@@ -1,0 +1,155 @@
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    text-align: center;
+    padding: 100px 0;
+    color:wheat;
+    font-size: 35px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.title h3:after{
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: wheat;
+    margin: 0 auto;
+}
+.content{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+}
+.content_img img{
+    width: 200px;
+}
+.content_info_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.content_info h3{
+    color: white;
+    font-size: 25px;
+}
+.content_info h3:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: wheat;
+    margin: 20px 0;
+}
+.content_info_item{
+    color: #ccc;
+    font-size: 16px;
+}
+.content_info_item span{
+    font-weight: 700;
+}
+.content_info_item button{
+    width: 150px;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.content_info_item_desc{
+    color: #ccc;
+}
+.showTimes{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.showTimesBtn{
+    width: 100%;
+    background-color: #0e1624;
+    border-radius:10px 10px 0 0;
+    display: flex;
+}
+.showTimesBtn button{
+    color: white;
+    display: flex;
+    margin: auto 0;
+    font-size: 18px;
+    padding: 20px 50px;
+    align-items: center;
+}
+.showTimesBtn button span{
+    padding: 0 10px;
+}
+.showTimesBtn button:hover{
+    background-color: rgb(19, 36, 69);
+}.showTimesBtn button:first-child:hover,.showTimesBtnActive:first-child{
+    border-radius:10px 0 0 0;
+}
+.showTimesBtnActive{
+    background-color: rgb(19, 36, 69);
+}
+.showTimesList{
+    min-height: 200px;
+    border-radius: 0 0 10px 10px;
+    background-color: rgb(19, 36, 69);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.showTimesList p{
+    color: white;
+    padding-top: 20px;
+}
+.showTimesListItem{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+.showTimesListItem span{
+    margin: 10px 5px;
+}
+.showTimesListItem span{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    @apply hover:text-[#3a70d6]
+}
+.showFilmList{
+    background: rgb(19, 36, 69);
+    height: 600px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 20px;
+}
+.showFilmListItemImg{
+    overflow: hidden;
+}
+.showFilmListItemImg img{
+    width: 100%;
+    transition: all ease 0.6s;
+}
+.showFilmListItemInfo h3{
+    color: white;
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.showFilmListItem:hover img{
+    transform: scale(1.2);
+}
+.showFilmListItem:hover h3{
+    color: #2055b1;
+}
+.noTheme{
+    height: auto;
+    overflow-y: scroll;
+    height: 770px;
+    max-height: 770px;
+}

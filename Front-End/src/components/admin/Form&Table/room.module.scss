@@ -1,0 +1,167 @@
+// .seatsContainer {
+//   text-align: center;
+// }
+
+.seatsHolder {
+  margin: 8px;
+  overflow: hidden;
+  width: 12px;
+  max-width: 12px;
+}
+
+.seatsLeafContainer {
+  width: 100%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.seats {
+  cursor: pointer;
+  color: #545454;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 7px 11px;
+  width: 35px;
+  height: 38px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 11%), 0 2px 4px 0 rgb(0 0 0 / 14%);
+}
+
+.seatsClient {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 11px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 11%), 0 2px 4px 0 rgb(0 0 0 / 14%);
+}
+
+.colName {
+  color: white;
+  font-weight: 700;
+  // margin-right: 20px;
+  // border: 2px solid rebeccapurple;
+  padding-right: 5px;
+  float: left;
+}
+
+.colName2 {
+  color: white;
+  font-weight: 700;
+  // margin-right: 20px;
+  // border: 2px solid rebeccapurple;
+  padding-right: 5px;
+  float: right;
+}
+
+.colNameAd {
+  color: black;
+  font-weight: 700;
+  padding-right: 1px;
+  float: left;
+}
+
+.colNameAd2 {
+  color: black;
+  font-weight: 700;
+  padding-right: 1px;
+  float: right;
+}
+
+.seatNotBooksed {
+  background-color: white;
+}
+
+.seatSelected0 {
+  color: red !important;
+}
+
+.seatBooked {
+  background: red !important;
+  cursor: default;
+  color: white
+}
+
+.seatSelected {
+  color: #fff !important;
+  background: rgb(53 212 6) !important;
+}
+
+.seatBlocked {
+  color: #fff !important;
+  background: rgb(88, 13, 0);
+}
+
+.seatBlockedClient {}
+
+.seatSelected0 {
+  color: red !important;
+}
+
+.seatBooked {
+  background: red !important;
+  cursor: default;
+  color: white
+}
+
+.seatSelected {
+  color: #fff !important;
+  background: rgb(53 212 6) !important;
+}
+
+.seatBlocked {
+  color: #fff !important;
+  background: rgb(69, 69, 69) !important;
+}
+
+.seatBlockedClient {
+  visibility: hidden !important;
+}
+
+.paymentButton {
+  background: #f84464 !important;
+}
+
+.paymentButtonContainer {
+  position: sticky;
+  bottom: 10px;
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.inputHolder {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputField {
+  width: 100px;
+  margin: 10px !important;
+}
+
+.saveSetUpButton {
+  height: 40px !important;
+  margin-top: 10px !important;
+  background: #f84464 !important;
+  margin-left: 10px !important;
+}
+
+.header {
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.headerBlockedText {
+  color: tomato;
+}
+.renderBtnIcon{
+  text-align: center !important;
+  font-size: 24px !important;
+}

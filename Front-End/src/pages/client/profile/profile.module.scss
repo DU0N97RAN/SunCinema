@@ -1,0 +1,68 @@
+.container {
+    margin: 0 auto;
+}
+.head{
+    position: relative;
+}
+.head .bg{
+    margin: 0 60px;
+    // margin-top: -20px;
+}
+.head .bg img{
+    width: 100%;
+    border-radius: 20px;
+}
+.avatar img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main {
+    background-color: #343a40;
+    height: fit-content;
+    z-index: 99999;
+    margin: 100px 60px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #fff;
+    border-radius: 22px 20px 0 0;
+}
+.btn button{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    border: none;
+}
+.btn button:first-child{
+    border-radius: 20px 0 0 0;
+}
+.btn_active{
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.info{
+    padding: 50px;
+    color: white;
+}
+.infoItems div{
+    font-size: 18px;
+    color :white;
+    margin-left: 10%;
+}
+.infoItems div span{
+    padding: 0 10px;
+}
+.infoItems div span:first-child{
+    padding-left: 0;
+}
+.history{
+    width: 98%;
+    margin: 20px auto;
+}
