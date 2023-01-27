@@ -26,17 +26,17 @@ const SignUpSocial = (props: Props) => {
    //    //    localStorage.setItem('login with google', JSON.stringify(output))
    //    // })
    //    dispatch()
-      
+
    // };
 
    const loginFb = () => {
-      notification.info({message: 'Chức năng này chưa được hoàn thiện'})
+      notification.info({ message: 'Chức năng này chưa được hoàn thiện' })
    }
 
    return (
       <div className="flex justify-between">
          <button type="button" className={styles.loginGG} >
-         <a href={`${import.meta.env.VITE_API_URL}/auth/google`}>Đăng nhập google</a>
+            <a href={`${import.meta.env.VITE_API_ONLINE}/auth/google`}>Đăng nhập google</a>
          </button>
          <button type="button" className={styles.loginFb} onClick={loginFb} >
             Sign in with Facebook

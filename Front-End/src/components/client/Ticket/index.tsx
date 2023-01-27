@@ -35,7 +35,7 @@ const Ticket = ({ detail, order, isAdmin }: Props) => {
 
    const handle = () => {
       notification.info({ message: "Đang xuất vé, xin vui lòng chờ trong giây lát" })
-      document.location.href = `${import.meta.env.VITE_API_URL}/ticket-export/${order?._id}`
+      document.location.href = `${import.meta.env.VITE_API_ONLINE}/ticket-export/${order?._id}`
       setTimeout(() => {
          dispatch(getOneOrder(order?._id))
          dispatch(getAllOrders({}))
