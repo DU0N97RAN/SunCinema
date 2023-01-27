@@ -52,7 +52,7 @@ app.use(morgan("tiny"));
 app.use(express.json({ limit: "50mb" }));
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173", "https://sun-cinema-iq3y.vercel.app"],
+  origin: ["http://localhost:5173", "http://127.0.0.1:5173", "https://sun-cinema-wagt.vercel.app/"],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
