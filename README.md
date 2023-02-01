@@ -42,12 +42,13 @@ Password:12345678
 
 ## Credits
 Developed by Team 20:
-- Front-End Dev: 
-* **Trịnh Phương Thảo
-* **Trương Văn Hùng
-* **Tạ Quang Nghĩa
-- Back-End Dev:
-* **Trần Ánh Dương
-* **Trịnh Minh Tuấn
-* **Bùi Khả Tùng Dương
+Front-End Dev: 
+ - Trịnh Phương Thảo
+ - Trương Văn Hùng
+ - Tạ Quang Nghĩa
+Back-End Dev:
+ - Trần Ánh Dương
+ - Trịnh Minh Tuấn
+ - Bùi Khả Tùng Dương
+
 Special thanks to our teacher, Mr Nguyễn Đức Anh Tuấn for his support and guidance
