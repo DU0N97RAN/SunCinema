@@ -47,6 +47,7 @@ Front-End Dev:
 * **Trịnh Phương Thảo**
 * **Trương Văn Hùng**
 * **Tạ Quang Nghĩa**
+
 Back-End Dev:
 * **Trần Ánh Dương**
 * **Trịnh Minh Tuấn**
